@@ -1,0 +1,123 @@
+.container{ 
+    background-color:rgb white; 
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+.part-haut{
+    float: left;
+    background-color: rgb(255, 115, 0);
+    width: 900px;
+    text-align: center;
+    font-family: fantasy;
+    
+}
+.part-haut2{
+    float: left;
+    background-color: rgba(250, 72, 18, 0.911);
+    width: 900px;
+    text-align: center;
+}
+
+.content-left{
+    width: 34%;
+    float: left;
+}
+.content-right {
+    width: 33%;
+    float: right;
+}
+footer{
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+    color: rgb(247, 248, 155);
+    padding: 5px;
+}
+.clearfix{
+    clear: both;
+}
+.part-center{
+    float: left;
+    width: 33%;
+
+}
+.part-nom{
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+
+}
+.bar{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-bottom: 3px solid rgb(255, 230, 0);
+
+}
+
+.bar nav a {
+    padding: 15px;
+}
+.bar nav a:hover{
+    background-color: rgb(255, 60, 0);
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+#s1{
+    background-color:yellow;
+}
+
+#s2{
+    background-color: rgb(255, 251, 0);
+}
+#s3{
+    background-color:rgb(203, 223, 27);
+    min-width: 150px;
+    
+}
+
+#s4{
+    background-color: whitesmoke;
+    min-width: 150px
+}
+
+#s5{
+    background-color:azure;
+    min-width: 150px
+}
+
+#s6{
+    background-color: blanchedalmond;
+    min-width: 150px
+}
+#form-contact div {
+    margin-top:25px;
+
+}
+#produits thead {
+    font-weight: bold;
+    background-color: red;
+    color:white;
+    
+}
+
+#produits td {
+    padding:0 25px;
+}
+#produits  tbody tr:nth-child(odd){
+    background-color: rgba(231, 151, 3, 0.911)
+}
+
+/*#produits { 
+    border-collapse: collapse
+} enlever les lignes du tableau */
+
+.container1{
+    width: 600px;
+    margin: 0 auto 0 auto;
+    
+}
+.titre{
+    font-family: cursive;
+    color: blue;
+}
